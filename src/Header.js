@@ -14,14 +14,14 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <Link className="Header-logo-container" to="/">
+        <Link className="Header-logo-container" to="/Online-Store">
           <img src={Logo} alt="logo" />
         </Link>
         <div className="Header-options">
           <Link className="Header-option" to="/shop">
             SHOP
           </Link>
-          <Link className="Header-option" to="/">
+          <Link className="Header-option" to="/Online-Store">
             CONTACT
           </Link>
           {this.props.currentUser ? (
